@@ -1,0 +1,26 @@
+{
+  "name": "conductor-utils",
+  "version": "0.0.0",
+  "description": "A set of utilities used by many Conductor projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "keywords": [
+    "conductor",
+    "utility"
+  ],
+  "author": "Conductor",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "gulp": "^3.8.6",
+    "gulp-mocha": "^0.5.1",
+    "mocha": "^1.20.1",
+    "sinon": "^1.10.2",
+    "sinon-chai": "^2.5.0"
+  },
+  "dependencies": {
+    "underscore": "^1.6.0"
+  }
+}
