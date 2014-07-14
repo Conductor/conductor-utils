@@ -59,7 +59,7 @@ describe("Conductor Utils", function () {
       });
     });
 
-    it("throws if the combination of the context and options do not have all required keys", function () {
+    it("throws if the context and options do not have all required keys",  function () {
       var assignRequiredOptions = ConductorUtils.assignRequiredOptions.
         bind(this, this.context, this.options, ['conductor', '[Not Provided]']);
       expect(assignRequiredOptions).to.throw(TypeError);
