@@ -1,8 +1,9 @@
 {
   "name": "conductor-utils",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A set of utilities used by many Conductor projects",
   "main": "index.js",
+  "repository": "https://github.com/Conductor/conductor-utils",
   "scripts": {
     "test": "gulp test"
   },
@@ -13,7 +14,7 @@
   "author": "Conductor",
   "license": "MIT",
   "devDependencies": {
-    "browserify": "^4.2.3",
+    "browserify": "cmaher/node-browserify",
     "chai": "^1.9.1",
     "gulp": "^3.8.6",
     "gulp-jshint": "^1.7.1",
