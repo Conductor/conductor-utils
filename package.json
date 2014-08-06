@@ -15,18 +15,11 @@
   "license": "MIT",
   "devDependencies": {
     "browserify": "cmaher/node-browserify",
-    "chai": "^1.9.1",
     "gulp": "^3.8.6",
-    "gulp-jshint": "^1.7.1",
-    "gulp-json-editor": "^2.0.2",
-    "gulp-mocha": "^0.5.1",
     "gulp-rename": "^1.2.0",
     "gulp-wrap": "^0.3.0",
-    "gulp-wrap-umd": "^0.2.1",
-    "mocha": "^1.20.1",
-    "sinon": "^1.10.2",
-    "sinon-chai": "^2.5.0",
-    "vinyl-source-stream": "^0.1.1"
+    "vinyl-source-stream": "^0.1.1",
+    "gulp-conductor-common": "git://github.com/Conductor/gulp-conductor-common.git#0.1.0"
   },
   "dependencies": {
     "underscore": "^1.6.0"
