@@ -35,6 +35,7 @@ module.exports = {
    * @param requiredOptions
    */
   assignRequiredOptions: function (context, options, requiredOptions) {
+    options = options || {};
     var optionsAndContext = _.extend({}, options, context);
     this.requireOptions(optionsAndContext, requiredOptions);
     _.each(requiredOptions, function (key) {
